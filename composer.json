@@ -1,0 +1,19 @@
+{
+    "name": "zhzhxxxyy/swoole_mqtt",
+    "description": "swoole mqtt client",
+    "license": "MIT",
+    "authors": [{
+        "name": "zhzhxxxyy",
+        "email": "zhzhxxxyy@126.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "ext-swoole": ">=2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZxyMqtt\\": "src/"
+        }
+    }
+}
